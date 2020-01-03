@@ -62,17 +62,17 @@ export default function CustomizedSelects() {
           onChange={handleChange}
           input={<BootstrapInput />}
         >
-        {ComponentsArray.map(part=><option value ={part}>part</option>)}
+        {ComponentsArray.map(part=><option value ={part}>{part}</option>)}
         
-          {/* <option value={""}></option> */}
-          {/* <option value={"Motherboard"}></option>
-          <option value={"Memory"}></option>
-          <option value={"Storage"}></option>
-          <option value={"VideoCard"}></option>
-          <option value={"Case"}></option>
-          <option value={"PowerSupply"}></option>
-          <option value={"OpticalDrive(s)"}></option>
-          <option value={"Monitor"}></option> */}
+          {/* <option value={"test"}></option> */}
+          {/* <option value={"Motherboard"}>Motherboard</option>
+          <option value={"Memory"}>Memory</option>
+          <option value={"Storage"}>Storage</option>
+          <option value={"VideoCard"}>VideoCard</option>
+          <option value={"Case"}>Case</option>
+          <option value={"PowerSupply"}>PowerSupply</option>
+          <option value={"OpticalDrive(s)"}>OpticalDrive(s)</option>
+          <option value={"Monitor"}>Monitor</option> */}
         </NativeSelect>
       </FormControl>
     </div>
@@ -95,3 +95,4 @@ const ComponentsArray = [
       "External Storage",
       "Epansion Cards/ Networking",
 ]
+

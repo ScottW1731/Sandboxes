@@ -2,14 +2,15 @@ import React from 'react';
 import './App.css';
 import SearchAppBar from './components/navbar';
 import { NativeSelect } from '@material-ui/core';
-import {SaveButton, DeleteButton} from './components'
- 
+import {SaveButton, DeleteButton} from './components';
+import {CustomizedSelects} from './components'
 
 function App() {
   return (
     <div className="App">
       <SearchAppBar/>
-      <h1><NativeSelect/></h1>
+      
+      <CustomizedSelects/>
       
       
     </div>
